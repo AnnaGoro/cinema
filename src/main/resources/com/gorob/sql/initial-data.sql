@@ -1,0 +1,10 @@
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Somerset Maugham', '5','5', 'Theatre');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Jerome K. Jerome', '5','5', 'Three Men in a Boat');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Ray Bradbury', '5','5', 'The Stories');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Rudyard Kipling', '5','5', 'The Jungle Book');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('O. Henry', '5','5', 'Best Short Stories');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Douglas Adams', '5','5', 'Hitchhiker’s Guide to the Galaxy');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Oscar Wilde', '5','5', 'The Picture of Dorian Gray');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Ernest Hemingway', '5','5', 'Cat’s Cradle');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Kurt Vonnegut', '5','5', 'For Whom the Bell Tolls');
+INSERT INTO movies (description, balance, start_number, title) VALUES ('Agatha Christie', '5','5', 'Hercule Poirot');

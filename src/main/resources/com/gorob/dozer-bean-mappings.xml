@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+
+http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>com.gorobchenkoa.model.entity.Movie</class-a>
+        <class-b>com.gorobchenkoa.model.dto.BookDTO</class-b>
+        <field-exclude type="one-way">
+            <a>users</a>
+            <b>users</b>
+        </field-exclude>
+        <field-exclude type="one-way">
+            <a>report</a>
+            <b>report</b>
+        </field-exclude>
+    </mapping>
+    <mapping>
+        <class-a>com.gorobchenkoa.model.entity.Report</class-a>
+        <class-b>com.gorobchenkoa.model.dto.ReportDTO</class-b>
+        <field-exclude type="one-way">
+            <a>movie</a>
+            <b>movie</b>
+        </field-exclude>
+    </mapping>
+    <mapping>
+        <class-a>com.gorobchenkoa.model.entity.User</class-a>
+        <class-b>com.gorobchenkoa.model.dto.UserDTO</class-b>
+        <field-exclude type="one-way">
+            <a>movies</a>
+            <b>movies</b>
+        </field-exclude>
+    </mapping>
+</mappings>
